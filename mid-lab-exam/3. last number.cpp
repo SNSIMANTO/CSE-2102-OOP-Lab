@@ -4,7 +4,7 @@ class Number{
 public:
     void calculations()
     {
-        int n, last_one, temp;
+        int n, last_one;
         cin>>n;
         last_one = n%10;
         cout<<last_one<<endl;
