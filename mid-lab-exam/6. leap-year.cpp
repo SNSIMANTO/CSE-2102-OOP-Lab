@@ -7,7 +7,7 @@ int main() {
 
   cout << "Enter a year: ";
   cin >> year;
-
+2
   // if year is divisible by 4 AND not divisible by 100
   // OR if year is divisible by 400
   // then it is a leap year

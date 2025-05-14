@@ -1,21 +1,25 @@
-#include<iostream>
-#include<math.h>
+#include <iostream>
 using namespace std;
-class Number{
+
+class Number {
 public:
-    void divisors()
-    {
+    void divisors() {
         int n;
-        cin>>n;
-        for(int i = 1; i <= n; i++){
-            if(n%i == 0){
-                cout<<i<<endl;
+        cout << "Enter a number: ";
+        cin >> n;
+
+        cout << "Divisors of " << n << " are:\n";
+        for (int i = 1; i <= n; ++i) {
+            if (n % i == 0) {
+                cout << i << endl;
             }
         }
     }
 };
-int main()
-{
+
+int main() {
     Number obj;
     obj.divisors();
+
+    return 0;
 }
